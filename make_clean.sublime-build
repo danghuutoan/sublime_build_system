@@ -1,0 +1,4 @@
+{
+	"shell_cmd": "make clean",
+	"working_dir": "${project_path:${folder}}",
+}

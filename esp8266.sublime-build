@@ -1,0 +1,5 @@
+{
+	"shell_cmd": "make",
+	"path": "/home/toan/workspace/esp_8266_sdk/xtensa-lx106-elf/bin:/usr/bin:/bin",
+	"working_dir": "${project_path:${folder}}",
+}

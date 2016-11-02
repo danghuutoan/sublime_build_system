@@ -1,0 +1,12 @@
+{
+	"shell_cmd": "make",
+	"path":"/home/toan/softwares/ndk:/usr/bin:/bin",
+	"working_dir": "${project_path:${folder}}",
+	"variants":
+    [
+        {
+            "name": "clean",
+            "shell_cmd": ["make clean"]
+        }
+    ]
+}

@@ -1,5 +1,21 @@
 {
 	"shell_cmd": "make",
-	"path": "/home/toan/workspace/esp_8266_sdk/xtensa-lx106-elf/bin:/usr/bin:/bin",
+	"path":"/home/toan/workspace/esp_8266_sdk/esp-open-sdk/xtensa-lx106-elf/bin:/bin:/usr/bin",
+	"env":
+		{ 
+			"SDK_BASE":"/home/toan/workspace/esp_8266_sdk/esp-open-sdk/ESP8266_NONOS_SDK_V2.0.0_16_08_10",
+			"ESPTOOL":"/home/toan/workspace/esp_8266_sdk/esp-open-sdk/esptool/esptool.py",
+		},
 	"working_dir": "${project_path:${folder}}",
+	"variants":
+	[
+		{
+		    "name": "clean",
+		    "shell_cmd":"make clean",
+		},
+		{
+		    "name": "flash",
+		    "shell_cmd":"make flash",
+		}
+	]
 }
